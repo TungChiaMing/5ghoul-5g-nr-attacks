@@ -29,3 +29,6 @@
 [submodule "modules/QCSuper"]
 	path = modules/QCSuper
 	url = https://github.com/P1sec/QCSuper.git
+[submodule "3rd-party/3rd-party/czmq"]
+	path = 3rd-party/3rd-party/czmq
+	url = https://github.com/zeromq/czmq.git

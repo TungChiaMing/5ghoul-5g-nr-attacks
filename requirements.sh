@@ -38,11 +38,11 @@ then
 	sudo apt install gcc-9 g++-9 libstdc++-9-dev -y
 
 	# Install qt 5.12.2 on x86 arch
-	if [ $ARCH == "x86_64" ]
-	then
-		sudo add-apt-repository ppa:beineri/opt-qt-5.12.2-bionic -y
-		sudo apt install qt512base qt512tools qt512svg qt512multimedia mesa-common-dev -y
-	fi
+	#if [ $ARCH == "x86_64" ]
+	#then
+	#	sudo add-apt-repository ppa:beineri/opt-qt-5.12.2-bionic -y
+	#	sudo apt install qt512base qt512tools qt512svg qt512multimedia mesa-common-dev -y
+	#fi
 
 	# Install nodejs
 	if ! which node > /dev/null;
